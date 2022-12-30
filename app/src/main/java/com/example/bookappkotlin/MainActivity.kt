@@ -1,5 +1,6 @@
 package com.example.bookappkotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bookappkotlin.databinding.ActivityMainBinding
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.loginBtn.setOnClickListener {
-
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         binding.skipBtn.setOnClickListener {
