@@ -45,9 +45,10 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        app:boxBackgroundMode="none"
         android:id="@+id/nameInputLayout"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="-25dp"
         android:layout_marginEnd="24dp"
@@ -72,9 +73,10 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        app:boxBackgroundMode="none"
         android:id="@+id/ilPassword"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_edittext1"
         app:hintEnabled="true"
@@ -107,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ilPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginButton"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
@@ -120,7 +122,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ilPassword" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/signUpTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
