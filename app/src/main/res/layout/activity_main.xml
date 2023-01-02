@@ -55,4 +55,5 @@
         app:layout_constraintBottom_toTopOf="@+id/skipBtn"
         app:layout_constraintEnd_toEndOf="@+id/skipBtn"
         app:layout_constraintStart_toStartOf="@+id/skipBtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
