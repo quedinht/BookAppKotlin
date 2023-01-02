@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Book AppKotlin</string>
+    <string name="new_user_sign_up">New user? <b>Sign-up</b></string>
+    <string name="please_login">Please login</string>
+    <string name="icon_for_app">icon for app</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>
