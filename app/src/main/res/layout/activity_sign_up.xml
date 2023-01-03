@@ -15,8 +15,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_edittext1"
         app:hintEnabled="true"
-        app:layout_constraintEnd_toEndOf="@+id/nameInputLayout"
-        app:layout_constraintStart_toStartOf="@+id/nameInputLayout"
+        app:layout_constraintEnd_toEndOf="@+id/categoryInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/categoryInputLayout"
         app:layout_constraintTop_toBottomOf="@+id/ilPassword"
         app:passwordToggleEnabled="true">
 
@@ -41,8 +41,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_edittext1"
         app:hintEnabled="true"
-        app:layout_constraintEnd_toEndOf="@+id/nameInputLayout"
-        app:layout_constraintStart_toStartOf="@+id/nameInputLayout"
+        app:layout_constraintEnd_toEndOf="@+id/categoryInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/categoryInputLayout"
         app:layout_constraintTop_toBottomOf="@+id/ilEmail"
         app:passwordToggleEnabled="true">
 
@@ -67,9 +67,9 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_edittext1"
         app:hintEnabled="true"
-        app:layout_constraintEnd_toEndOf="@+id/nameInputLayout"
-        app:layout_constraintStart_toStartOf="@+id/nameInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/nameInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/categoryInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/categoryInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/categoryInputLayout">
 
         <EditText
             android:id="@+id/etEmail"
@@ -81,7 +81,8 @@
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:padding="10dp" />
+            android:padding="10dp"
+            tools:ignore="DuplicateIds" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -133,7 +134,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         app:boxBackgroundMode="none"
-        android:id="@+id/nameInputLayout"
+        android:id="@+id/categoryInputLayout"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"

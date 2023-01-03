@@ -40,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun validateData() {
-        email = binding.etEmail.text.toString().trim()
+        email = binding.emailEditText.text.toString().trim()
         password = binding.etPassword.text.toString().trim()
 
         if (email.isEmpty()) {
