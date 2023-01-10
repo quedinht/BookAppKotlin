@@ -44,7 +44,7 @@ class AddCategoryActivity : AppCompatActivity() {
             var timeCreate = System.currentTimeMillis()
             var uid = FirebaseAuth.getInstance().uid!!
             var hashMap = HashMap<String, Any>()
-            hashMap["id"] = timeCreate
+            hashMap["id"] = timeCreate.toString()
             hashMap["name"] = category
             hashMap["uid"] = uid
             hashMap["timeCreate"] = timeCreate
